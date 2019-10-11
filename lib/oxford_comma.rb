@@ -1,13 +1,13 @@
 def oxford_comma(array)
-  if array.count == 1
+  if array.length == 1
     array.join
   end
   
-  if array.count == 2
+  if array.length == 2
     array.join(" and ")
   end
   
-  if array.count == 3
+  if array.length == 3
     array.join
   end
 end
